@@ -10,7 +10,7 @@ pemantauan sesuai topik yang di-subscribe.
 
 ---
 
-## 👤 Identitas
+##  Identitas
 
 | | |
 |---|---|
@@ -21,7 +21,7 @@ pemantauan sesuai topik yang di-subscribe.
 
 ---
 
-## 🧩 Struktur Topik
+##  Struktur Topik
 
 Hierarki topik yang digunakan:
 
@@ -40,7 +40,7 @@ smartroom/room2/temperature
 
 ---
 
-## 🔗 Model Komunikasi MQTT
+##  Model Komunikasi MQTT
 
 ```mermaid
 flowchart LR
@@ -71,7 +71,7 @@ monitoring). Semua pesan melewati **broker** yang meneruskannya berdasarkan
 
 ---
 
-## 📁 Struktur File
+##  Struktur File
 
 ```
 smart-room-mqtt/
@@ -90,7 +90,7 @@ smart-room-mqtt/
 
 ---
 
-## ⚙️ Prasyarat (Requirements)
+##  Prasyarat (Requirements)
 
 - **Eclipse Mosquitto Broker** 2.x — https://mosquitto.org/download/
 - **Python** 3.x — https://www.python.org/downloads/
@@ -108,7 +108,7 @@ pip install paho-mqtt
 
 ---
 
-## ▶️ Cara Menjalankan
+##  Cara Menjalankan
 
 Semua perintah dijalankan dari folder proyek. Butuh beberapa terminal terpisah
 (broker, subscriber, publisher) yang berjalan bersamaan.
@@ -145,7 +145,7 @@ Hentikan program apa pun dengan `Ctrl + C`.
 
 ---
 
-## 📊 Ringkasan Hasil Pengujian
+##  Ringkasan Hasil Pengujian
 
 | Skenario | Topik Subscriber | Perilaku yang Diamati |
 |---|---|---|
@@ -157,7 +157,7 @@ Hentikan program apa pun dengan `Ctrl + C`.
 
 ---
 
-## 🧠 Konsep QoS
+##  Konsep QoS
 
 | QoS | Jaminan | Mekanisme |
 |---|---|---|
@@ -167,7 +167,7 @@ Hentikan program apa pun dengan `Ctrl + C`.
 
 ---
 
-## 🧠 Konsep Wildcard
+##  Konsep Wildcard
 
 | Simbol | Arti | Contoh | Cocok dengan |
 |---|---|---|---|
